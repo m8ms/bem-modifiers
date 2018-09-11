@@ -1,9 +1,9 @@
 {
-  "name": "bemcx",
+  "name": "bem-modifiers",
   "version": "1.0.0",
   "description": "cx-like utility for creating bem modifier classes",
   "main": "index.js",
-  "repository": "https://github.com/m8ms/bemcx.git",
+  "repository": "https://github.com/m8ms/bem-modfifiers.git",
   "author": "Piotr Martyniak <piotr.martyniak@daftcode.pl>",
   "license": "MIT",
   "scripts": {
