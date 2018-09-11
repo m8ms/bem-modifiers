@@ -1,0 +1,25 @@
+{
+  "name": "bemcx",
+  "version": "1.0.0",
+  "description": "cx-like utility for creating bem modifier classes",
+  "main": "index.js",
+  "repository": "https://github.com/m8ms/bemcx.git",
+  "author": "Piotr Martyniak <piotr.martyniak@daftcode.pl>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.25.0"
+  }
+}
