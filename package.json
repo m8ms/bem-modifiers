@@ -1,15 +1,18 @@
 {
   "name": "bem-modifiers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cx-like utility for creating bem modifier classes",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/m8ms/bem-modfifiers.git",
   "author": "Piotr Martyniak <piotr.martyniak@daftcode.pl>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "yarn compile"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",

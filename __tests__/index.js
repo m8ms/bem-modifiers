@@ -1,7 +1,7 @@
 import {
     normalize,
     bemCx
-} from '../index'
+} from '../src/index'
 
 describe('bem utils', () => {
 
