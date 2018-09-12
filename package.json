@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "cx-like utility for creating bem modifier classes",
   "main": "lib/index.js",
-  "repository": "https://github.com/m8ms/bem-modfifiers.git",
+  "repository": "https://github.com/m8ms/bem-modifiers.git",
   "author": "Piotr Martyniak <piotr.martyniak@daftcode.pl>",
   "license": "MIT",
   "scripts": {
@@ -11,6 +11,16 @@
     "compile": "babel -d lib/ src/",
     "prepublish": "yarn compile"
   },
+  "keywords": [
+    "react",
+    "css",
+    "classes",
+    "classname",
+    "classnames",
+    "util",
+    "utility",
+    "bem"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
