@@ -48,6 +48,17 @@ export const normalize = memoize((items, prefix) => {
 })
 
 /**
+ * Convenience const for easily setting propTypes = { modifiers }.
+ *
+ * @type {shim}
+ */
+export const modifiers = PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.string,
+    PropTypes.object
+])
+
+/**
  * Wraps `classnames.cx` to make bem classes.
  *
  * Returns BEM main class (can be block root or __element),
@@ -61,16 +72,5 @@ export const normalize = memoize((items, prefix) => {
 const bemCx = (baseClass, modifiers = {}, otherClasses) => {
     return cx(baseClass, normalize(modifiers, baseClass), otherClasses)
 }
-
-/**
- * Convenience const for easily setting propTypes = { modifiers }.
- *
- * @type {shim}
- */
-export const modifiers = PropTypes.oneOfType([
-    PropTypes.array,
-    PropTypes.string,
-    PropTypes.object
-])
 
 export default bemCx

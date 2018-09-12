@@ -1,7 +1,4 @@
-import {
-    normalize,
-    bemCx
-} from '../src/index'
+import bemCx, { normalize } from '../src/index'
 
 describe('bem utils', () => {
 
