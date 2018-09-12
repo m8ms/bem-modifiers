@@ -61,6 +61,7 @@ export const normalize = memoize((items, prefix) => {
 export const bemCx = (baseClass, modifiers = {}, otherClasses) => {
     return cx(baseClass, normalize(modifiers, baseClass), otherClasses)
 }
+
 /**
  * Convenience const for easily setting propTypes = { modifiers }.
  *
@@ -71,3 +72,5 @@ export const modifiers = PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object
 ])
+
+export default bemCx
