@@ -58,7 +58,7 @@ export const normalize = memoize((items, prefix) => {
  * @param {*} otherClasses - `cx` style other classes
  * @returns {*}
  */
-export const bemCx = (baseClass, modifiers = {}, otherClasses) => {
+const bemCx = (baseClass, modifiers = {}, otherClasses) => {
     return cx(baseClass, normalize(modifiers, baseClass), otherClasses)
 }
 
