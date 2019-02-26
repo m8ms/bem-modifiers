@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "cx-like utility for creating bem modifier classes",
   "main": "lib/index.js",
-  "module": "lib/index.js",
+  "module": "src/index.js",
   "repository": "https://github.com/m8ms/bem-modifiers.git",
   "author": "Piotr Martyniak <piotr.martyniak@daftcode.pl>",
   "license": "MIT",
