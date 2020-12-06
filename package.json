@@ -1,6 +1,6 @@
 {
   "name": "bem-modifiers",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "cx-like utility for creating bem modifier classes",
   "main": "lib/index.js",
   "module": "src/index.js",
